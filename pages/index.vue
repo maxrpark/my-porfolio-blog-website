@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Hero title="Maxi Ruti" desc="Welcome to my porfolio-blog">
+    <Hero title="Maxi Ruti" desc="Welcome to my Porfolio-Blog">
       <SocialIcons />
     </Hero>
     <div class="projects">
