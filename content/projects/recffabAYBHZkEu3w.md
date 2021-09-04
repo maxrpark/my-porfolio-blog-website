@@ -1,22 +1,25 @@
 ---
-title: This is my first website 0.2
-id: rec7GmsOW5KGLmgLJ
-img: https://dl.airtable.com/.attachments/e07617975d2e3132e83359bb96a4d5df/e752f2c1/myfirstwebsite0.2.jpg
-description: I create this website after I learned Flexbox and Grid, I wanted to practice what I learned.
+title: Cacteria
+id: recv794Z6G53ssLKD
+description: Cacteria is an online shop, that sells the most amazing cactus in the world. The designs are all exclusive.
+img: https://dl.airtable.com/.attachments/9406dcaf040fbd493f5402a403635022/8d66bace/myfirstwebsite1_0_8.png
 alt: Home page image
 ---
 
-## This is my first website 0.2
+## This is my first website 1.0.8
 
-I create this website after I learned Flexbox and Grid, I wanted to practice what I learned. At that time, my biggest problem was how to create a navbar.
-I built using:
+Working with API is one of the most fun things you can do, at least when you are new at coding. Because it is so much fun to fetch data and populate your website from an external place.
 
-- HTML
-- CSS
-- Javascript
+So, naturally, after I learned about APIs, I knew I will eventually want to build my own. But since at the moment I didn’t know about backend, that was something I was not thinking to achieve in the short term. But then I discovered serverless functions and how helpful they can be.
 
-The javascript code I use I took from 3W School. This is from where I took the code : [Here](https://www.w3schools.com/howto/howto_js_scroll_to_top.asp)
+So After I took my first Udemy's Serverless Functions course I decided to build this website.
+
+## Netlify and Airtable
+
+For this website and especially for the serverless function I use, Netlify and Airtable, to create my own API.
+
+It is an API about this online shop call Cacteria.
 
 ## What is it about
 
-Mainly is about the two sections I created, one Grid and another one using FlexBox.
+Cacteria is an online shop, that sells the most amazing cactus in the world. The designs are all exclusive.
