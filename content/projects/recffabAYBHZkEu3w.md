@@ -1,12 +1,12 @@
 ---
-title: Cacteria
-id: recv794Z6G53ssLKD
-description: Cacteria is an online shop, that sells the most amazing cactus in the world. The designs are all exclusive.
-img: https://dl.airtable.com/.attachments/9406dcaf040fbd493f5402a403635022/8d66bace/myfirstwebsite1_0_8.png
+title: My Portfolio Bloog
+id: recffabAYBHZkEu3w
+description: This is my new portfolio built with nuxt and it is also a blog!.
+img: https://dl.airtable.com/.attachments/24d8821a12a2624cee8f5f86f9a0d9be/0a954f3c/myfirstwebsite2_0_0.png
 alt: Home page image
 ---
 
-## This is my first website 1.0.8
+## My portfolio blog
 
 Working with API is one of the most fun things you can do, at least when you are new at coding. Because it is so much fun to fetch data and populate your website from an external place.
 
