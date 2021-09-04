@@ -4,6 +4,7 @@ id: recffabAYBHZkEu3w
 description: This is my new portfolio built with nuxt and it is also a blog!.
 img: https://dl.airtable.com/.attachments/24d8821a12a2624cee8f5f86f9a0d9be/0a954f3c/myfirstwebsite2_0_0.png
 alt: Home page image
+
 ---
 
 ## My portfolio blog
