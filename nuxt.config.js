@@ -45,7 +45,7 @@ export default {
       {
         hid: "twitter:image",
         name: "twitter:image",
-        content: "https://twitter.com/MaxCodeJourney/photo"
+        content: "https://pbs.twimg.com/profile_images/1403603169742135297/SnjE8QCF_400x400.jpg"
       },
 
       // Open Graph
@@ -71,12 +71,12 @@ export default {
       {
         hid: "og:image",
         property: "og:image",
-        content: "https://twitter.com/MaxCodeJourney/photo"
+        content: "https://pbs.twimg.com/profile_images/1403603169742135297/SnjE8QCF_400x400.jpg"
       },
       {
         hid: "og:image:secure_url",
         property: "og:image:secure_url",
-        content: "https://twitter.com/MaxCodeJourney/photo"
+        content: "https://pbs.twimg.com/profile_images/1403603169742135297/SnjE8QCF_400x400.jpg"
       },
       {
         hid: "og:image:alt",
