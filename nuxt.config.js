@@ -15,7 +15,7 @@ export default {
         hid: "description",
         name: "description",
         content:
-          "Hi! I am Maxi and this is my porfolio website, where I share some of my projects and write post and reviews about web development courses."
+          "Hi! I am Maxi and this is my portfolio website, where I share some of my projects and write post and reviews about web development courses."
       },
       { name: "format-detection", content: "telephone=no" },
       // Twitter
@@ -29,18 +29,18 @@ export default {
       {
         hid: "twitter:url",
         name: "twitter:url",
-        content: "https://my-porfolio-blog-website.netlify.app/"
+        content: "https://my-portfolio-blog-website.netlify.app/"
       },
       {
         hid: "twitter:title",
         name: "twitter:title",
-        content: "My porfolio-blog website"
+        content: "My portfolio-blog website"
       },
       {
         hid: "twitter:description",
         name: "twitter:description",
         content:
-          "Hi! I am Maxi and this is my porfolio website, where I share some of my projects and write post and reviews about web development courses."
+          "Hi! I am Maxi and this is my portfolio website, where I share some of my projects and write post and reviews about web development courses."
       },
       {
         hid: "twitter:image",
@@ -55,18 +55,18 @@ export default {
       {
         hid: "og:url",
         property: "og:url",
-        content: "https://my-porfolio-blog-website.netlify.app/"
+        content: "https://my-portfolio-blog-website.netlify.app/"
       },
       {
         hid: "og:title",
         property: "og:title",
-        content: "My porfolio-blog website"
+        content: "My portfolio-blog website"
       },
       {
         hid: "og:description",
         property: "og:description",
         content:
-          "Hi! I am Maxi and this is my porfolio website, where I share some of my projects and write post and reviews about web development courses."
+          "Hi! I am Maxi and this is my portfolio website, where I share some of my projects and write post and reviews about web development courses."
       },
       {
         hid: "og:image",
