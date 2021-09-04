@@ -1,13 +1,13 @@
 ---
 title: HTML & CSS course (John Smilga)
-description: Learn HTML5 and CSS3 from scratch.​ Build Amazing Real World Projects.@
+description: Learn HTML5 and CSS3 from scratch. Build Amazing Real World Projects.@
 img: https://dl.airtable.com/.attachments/3fd2fabeaec4dbe8261161d44f21621e/3fb2bd00/myfirstwebsite2.0.0.png
 alt: Course img
 tags:
   - courses
 ---
 
-## Me Llamo max
+## Hola
 
 This was the first Udemy course I ever took and it was also the first course I took when I decided to pursue a career as a web developer. I will always be thankful to John for this course as much as all the other courses and content from his youtube channel.
 
