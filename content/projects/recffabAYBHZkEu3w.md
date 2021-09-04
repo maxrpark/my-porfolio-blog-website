@@ -1,12 +1,14 @@
 ---
-title: My Portfolio Bloog
-id: recffabAYBHZkEu3w
-description: This is my new portfolio built with nuxt and it is also a blog!.
-img: https://dl.airtable.com/.attachments/9406dcaf040fbd493f5402a403635022/8d66bace/myfirstwebsite1_0_8.png
-alt: Home page image
+title: Javascript Tutorial and Projects Course (John Smilga)
+description: Learn Javascript by Building Many Interesting Projects.
+img: https://images.ctfassets.net/qz1k4i0kbshi/4fNvHTvCzQhgV1KTy8Qxrq/6898aebe3e945b7be6f5527c40614fe9/js-logo.png?w=900&h=506&q=50
+alt: Course img
+tags:
+  - courses
+  - javascript
 ---
 
-## My portfolio blog
+## My Portfolio Blog
 
 Working with API is one of the most fun things you can do, at least when you are new at coding. Because it is so much fun to fetch data and populate your website from an external place.
 
