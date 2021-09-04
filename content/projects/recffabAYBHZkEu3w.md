@@ -1,6 +1,6 @@
 ---
 title: HTML & CSS course (John Smilga)
-description: Learn HTML5 and CSS3 from scratch.​ Build Amazing Real World Projects.
+description: Learn HTML5 and CSS3 from scratch.​ Build Amazing Real World Projects.@
 img: https://dl.airtable.com/.attachments/3fd2fabeaec4dbe8261161d44f21621e/3fb2bd00/myfirstwebsite2.0.0.png
 alt: Course img
 tags:
