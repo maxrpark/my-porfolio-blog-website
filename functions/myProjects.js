@@ -45,7 +45,7 @@ exports.handler = async (event, context, cb) => {
     });
     return {
       headers:{
-        'Acces-Control-Allow-Origin': '*',
+        'Access-Control-Allow-Origin': '*',
       },
       statusCode: 200,
       body: JSON.stringify(projects)
