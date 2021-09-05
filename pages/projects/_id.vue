@@ -1,9 +1,9 @@
 <template>
   <div class="single-project-page">
     <SocialHead
-      :title="projectDesc.title"
-      :description="projectDesc.description"
-      :image="projectDesc.img"
+      :title='projectDesc.title'
+      :description='projectDesc.description'
+      :image='projectDesc.img'
     />
     <div v-if="!loading" class="section-center">
       <article class="article-section">
