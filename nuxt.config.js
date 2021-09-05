@@ -17,12 +17,6 @@ export default {
         content:
           "Hi! I am Maxi and this is my portfolio website, where I share some of my projects and write post and reviews about web development courses.",
       },
-      {
-        hid: "image",
-        name: "image",
-        content:
-          "https://pbs.twimg.com/profile_images/1403603169742135297/SnjE8QCF_400x400.jpg",
-      },
       { name: "format-detection", content: "telephone=no" },
       // Twitter
       // Test on: https://cards-dev.twitter.com/validator

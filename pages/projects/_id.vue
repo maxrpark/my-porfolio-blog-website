@@ -76,6 +76,13 @@ export default {
   head() {
     return {
       title: `${this.project.name} || Maxi Ruti`,
+      meta: [
+        {
+          hid: "description",
+          name: "description",
+          content: this.projectDesc.description,
+        },
+      ],
     };
   },
   data() {
