@@ -17,7 +17,7 @@ export default {
     },
     image: {
       type: String,
-      default: "https://nuxtjs.org/nuxt-card.png"
+      default: "https://pbs.twimg.com/profile_images/1403603169742135297/SnjE8QCF_400x400.jpg"
     }
   },
 
