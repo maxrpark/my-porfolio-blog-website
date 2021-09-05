@@ -1,8 +1,9 @@
 ---
-title: HTML & CSS course (John Smilga)
-description: Learn HTML5 and CSS3 from scratch. Build Amazing Real World Projects.@
-img: https://dl.airtable.com/.attachments/3fd2fabeaec4dbe8261161d44f21621e/3fb2bd00/myfirstwebsite2.0.0.png
-alt: Course img
+title: Baby Name Website
+id: recb0hiLhlg7Ka9OU
+img: https://dl.airtable.com/.attachments/815c94b8707ef11fc33b03d1a0fc0699/67f77c4b/myfirstwebsite1.0.6.jpg
+description: A website that will help you decide the name of your baby. It can provide a list with the top 50 names for girls and boys.
+alt: Home page image
 ---
 
 ## heloooooo
