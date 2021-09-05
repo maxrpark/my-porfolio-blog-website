@@ -1,5 +1,10 @@
 <template>
   <div>
+    <SocialHead
+      title="My Portfolio website"
+      description="Hi! I am Maxi and this is my portfolio website, where I share some of my projects and write post and reviews about web development courses."
+      image="https://pbs.twimg.com/profile_images/1403603169742135297/SnjE8QCF_400x400.jpg"
+    />
     <Hero title="Maxi Ruti" desc="Welcome to my Portfolio-Blog">
       <SocialIcons />
     </Hero>
@@ -53,7 +58,7 @@ import Projects from "../components/Projects.vue";
 export default {
   head() {
     return {
-      title: "Home || Maxi Ruti"
+      title: "Home || Maxi Ruti",
     };
   },
   name: "HomePage",
@@ -66,9 +71,9 @@ export default {
       .fetch();
 
     return {
-      articles
+      articles,
     };
-  }
+  },
 };
 </script>
 <style scoped>
