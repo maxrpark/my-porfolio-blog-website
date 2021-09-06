@@ -1,8 +1,11 @@
 ---
-title: Mi Portfolio website
-img: https://dl.airtable.com/.attachments/815c94b87https://dl.airtable.com/.attachments/3fd2fabeaec4dbe8261161d44f21621e/3fb2bd00/myfirstwebsite2.0.0.png
-description: This is my new portfolio and also my coding blog website, I built it using nuxt and airtable. I use airtable to create and API to fetch all my projects and I had also used nuxt content to write the blog posts.
-alt: Home page image
+title: Javascript Tutorial and Projects Course (John Smilga)
+description: Learn Javascript by Building Many Interesting Projects.
+img: https://images.ctfassets.net/qz1k4i0kbshi/4fNvHTvCzQhgV1KTy8Qxrq/6898aebe3e945b7be6f5527c40614fe9/js-logo.png?w=900&h=506&q=50
+alt: Course img
+tags:
+  - courses
+  - javascript
 ---
 
 ## My new portfolio - blog website
