@@ -1,11 +1,9 @@
 ---
-title: Javascript Tutorial and Projects Course (John Smilga)
-description: Learn Javascript by Building Many Interesting Projects.
-img: https://images.ctfassets.net/qz1k4i0kbshi/4fNvHTvCzQhgV1KTy8Qxrq/6898aebe3e945b7be6f5527c40614fe9/js-logo.png?w=900&h=506&q=50
-alt: Course img
-tags:
-  - courses
-  - javascript
+title: My new portfolio - blog website
+id: recffabAYBHZkEu3w
+img: https://dl.airtable.com/.attachments/3fd2fabeaec4dbe8261161d44f21621e/3fb2bd00/myfirstwebsite2.0.0.png
+description: Welcome to my new portfolio website, where I plan to show all my projects but also where I will be blogging about courses and general stuff about web development.
+alt: Home page image
 ---
 
 ## My new portfolio - blog website
