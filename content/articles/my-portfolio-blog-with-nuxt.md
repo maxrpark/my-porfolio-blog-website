@@ -2,7 +2,9 @@
 title: Mi Portfolio website
 img: https://dl.airtable.com/.attachments/3fd2fabeaec4dbe8261161d44f21621e/3fb2bd00/myfirstwebsite2.0.0.png
 description: This is my new portfolio and also my coding blog website, I built it using nuxt and airtable. I use airtable to create and API to fetch all my projects and I had also used nuxt content to write the blog posts.
-alt: Home page image
+alt: Mi Portfolio website
+tags:
+  - Nuxt
 ---
 
 ## My new portfolio - blog website
@@ -35,9 +37,15 @@ Another great thing is that now my previous portfolio is also fetching all my pr
 I like blogging, it is so nice to write and document what you do or like. But blogging takes time so I have never been the blogger I always wanted to be.
 So, I thought it could be a great chance to start a new blog adventure where I can write about my life as a web developer and also I can practice writing in English which is not that my first language as you may notice.
 
+Write now the main goal of this blog is to write about some of the courses I have been talking in Udemy or some nice youtube tutorials and courses I had taken.
+I was not white sure how I can integrate a blog into this website, the first thing I thought was about a headless CMS, Strapi. But then I discover Nuxt Content.
 
+At first, I thought I was too complicated, because it is, in fact, a little bit confusing in the beginning. But I found Nuxt content documentation very clear and the most important thing I found was some amazing posts from [O'Brien](https://debbie.codes/), where you can read step by step what to do I want the result to expect. She also has some nice tutorials on youtube about Nuxt content and a lot of other things related to Nuxt.
 
+## Wrap up
 
+So this is more a less the story behind this website. I did not put a lot of effort into styling because it is no the main purpose of this project. 
+But I added a couple of things I learned thin a very nice Udemy course call [Creative Advanced CSS Animations - Create 100 Projects!](https://www.udemy.com/course/javascript-tutorial-for-beginners-w/). 
 
 I hope you like it, as much I do, and stick around to read my blog too!
 
