@@ -48,8 +48,6 @@ At first, I thought I was too complicated, because it is, in fact, a little bit 
 So this is more a less the story behind this website. I did not put a lot of effort into styling because it is no the main purpose of this project. 
 But I added a couple of things I learned thin a very nice Udemy course call [Creative Advanced CSS Animations - Create 100 Projects!](https://www.udemy.com/course/javascript-tutorial-for-beginners-w/). 
 
-
-
 I hope you like it, as much I do, and stick around to read my blog too!
 
 
