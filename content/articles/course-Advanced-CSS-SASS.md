@@ -9,7 +9,7 @@ tags:
 
 ## Why did it take this course?
 
-I decided to take this course because I wanted to take my CSS game to the next level. I did not know that sass it can be so simple to learn and yet so powerful and useful.
+I decided to take this course because I wanted to take my CSS game to the next level. I didn’t know that sass can be so simple to learn and yet so powerful and useful.
 
 Before learning SASS, I had some trouble keeping my CSS file organize, first of all, because I did not have much experience and second of all because my projects were getting bigger and bigger. So my CSS file was growing more and more.
 
@@ -18,7 +18,6 @@ I thought SASS could be a nice solution for this problem plus I wanted to know w
 ## About the course
 
 There are not really many courses about SASS in Udemy, to be honest, so I did know have to search all that much. But still, I am glad I took this nice course.
-
 The creator of course Jonas Schmedtmann, has 5 courses in Udemy and most of them focus on front-end design.
 
 He presents this course as "The most advanced and modern CSS course on the internet: master flexbox, CSS Grid, responsive design, and so much more".
@@ -47,7 +46,7 @@ A very basic understanding of HTML, CSS.
 
 ### Course content and Course Projects
 
-This course is divided into 10 sections with a total of 126 lessons and a total duration of 28 hours.
+This course is divided into 10 sections with a total of 126 lessons and a duration of 28 hours.
 
 During the first sections of the course, we take a look at how CSS work, what are the best practices and how to be organized. After that, we learn the fundamentals of SASS and start implementing them in the course projects.
 
