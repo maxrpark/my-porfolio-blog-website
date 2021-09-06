@@ -1,10 +1,10 @@
 ---
-title: HTML & CSS course (John Smilga)
-description: Learn HTML5 and CSS3 from scratch.​ Build Amazing Real World Projects.
-img: https://images.ctfassets.net/qz1k4i0kbshi/4JpOhXeZy37AWiqcn2dswS/c6e3aecdf50049a0ba6cfa01bfcdc669/html-css-logo.png?w=600&q=50
+title: My new portfolio - blog website
+description: This is my new portfolio and also my coding blog website, I built it using nuxt and airtable. I use airtable to create and API to fetch all my projects and I had also used nuxt content to write the blog posts.
+img: https://dl.airtable.com/.attachments/3fd2fabeaec4dbe8261161d44f21621e/3fb2bd00/myfirstwebsite2.0.0.png
 alt: Course img
 tags:
-  - courses
+  - web development
 ---
 
 ## My new portfolio - blog website
