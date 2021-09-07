@@ -149,6 +149,11 @@ export default {
   text-align: center;
   margin: 1rem;
 }
+
+.project-title h2 {
+ font-size: 1.6rem;
+}
+
 .project-links {
   display: flex;
   justify-content: space-between;
@@ -207,6 +212,9 @@ export default {
     justify-content: center;
     margin: 0;
     height: 100%;
+  }
+  .project-title h2 {
+  font-size: 2.441rem;
   }
   .project-links {
     align-self: end;
