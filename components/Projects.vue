@@ -146,6 +146,8 @@ export default {
 }
 .project-title {
   color: var(--primary-color-one);
+  text-align: center;
+  margin: 1rem;
 }
 .project-links {
   display: flex;
