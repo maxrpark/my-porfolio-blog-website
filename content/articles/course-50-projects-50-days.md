@@ -7,7 +7,7 @@ tags:
   - courses
 ---
 
-## Why did it took this course?
+## Why did it take this course?
 
 I decided to take this course, right after I finish my first Javascript course. At that time I feel that even though I know some good things about Javascript I did not know how to start applying them in my projects.
 
