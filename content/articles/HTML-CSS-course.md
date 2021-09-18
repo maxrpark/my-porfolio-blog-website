@@ -7,7 +7,7 @@ tags:
   - courses
 ---
 
-## Why did it took this course?
+## Why did it take this course?
 
 This was the first Udemy course I ever took and it was also the first course I took when I decided to pursue a career as a web developer. I will always be thankful to John for this course as much as all the other courses and content from his youtube channel.
 
