@@ -8,7 +8,7 @@ tags:
   - javascript
 ---
 
-## Why did it took this course?
+## Why did it take this course?
 
 As you may know by now, the fundamentals knowledges of web developers are HTML & CSS and Javascript, so after I finished this. [HTML & CSS course](/blog/HTML-CSS-course), I knew the best next thing was to start my javascript adventure.
 
