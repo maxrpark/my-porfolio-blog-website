@@ -116,7 +116,10 @@ export default {
   margin: 2rem auto;
   max-width: 1200px;
 } */
-
+.project-title{
+  display: flex;
+j ustify-content: space-around
+}
 .project-tag-page {
   min-height: 100vh;
 }
