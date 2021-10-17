@@ -21,7 +21,8 @@
                 <h5>{{ project.version }}</h5>
                 <h2>{{ project.name }}</h2>
                 <div class="project-tags">
-                  <div v-for="tag in project.tags" :key="tag[0]">
+                  <div v-for="tag in project.tags.slice(0, 3)"
+                  :key="tag[0]">
                     <div class="tag">
                       <Nuxt-link class="" :to="`/projects/tags/${tag}`">{{
                         tag
