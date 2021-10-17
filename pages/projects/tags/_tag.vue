@@ -22,7 +22,7 @@
                 <h2>{{ project.name }}</h2>
                 <div class="project-tags">
                   <div v-for="tag in project.tags" :key="tag[0]">
-                    <div class="single-tag">
+                    <div class="tag">
                       <Nuxt-link class="" :to="`/projects/tags/${tag}`">{{
                         tag
                       }}</Nuxt-link>
