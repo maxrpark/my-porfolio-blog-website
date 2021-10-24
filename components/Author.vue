@@ -11,7 +11,7 @@
         <p>
           I am self taught web developer from Argentina. I am currently living
           in South Korea. Currently working as a Junior Front-End Developer at
-          NOLGON.
+          NOLGONG.
         </p>
       </div>
     </NuxtLink>
