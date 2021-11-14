@@ -118,7 +118,7 @@ export default {
 } */
 .project-title{
   display: flex;
-j ustify-content: space-around
+justify-content: space-around
 }
 .project-tag-page {
   min-height: 100vh;
