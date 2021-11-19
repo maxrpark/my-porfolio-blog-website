@@ -11,11 +11,11 @@ tags:
 
 This was the first Udemy course I ever took and it was also the first course I took when I decided to pursue a career as a web developer. I will always be thankful to John for this course as much as all the other courses and content from his youtube channel.
 
-I found out about John and his courses throughout YOUTUBE, when I started I went to youtube and search for HTML & CSS courses and I found one on freeCodeCamp channel, it was John's course, and in this course hecovers all the basics and more about HTML and CSS. This course is 11 hours long and you can watch it [clicking here](https://www.youtube.com/watch?v=V5rIPKzcX7Q&t=8s)
+I found out about John and his courses throughout YOUTUBE, when I started I went to youtube and search for HTML & CSS courses and I found one on freeCodeCamp channel, it was John's course, and in this course, he covers all the basics and more about HTML and CSS. This course is 11 hours long and you can watch it [clicking here](https://www.youtube.com/watch?v=V5rIPKzcX7Q&t=8s)
 
 After I watched this course, I went to his website [www.johnsmilga.com](https://www.johnsmilga.com/) and learned that we have longer versions of his courses in Udemy.
 
-That is why I decided to take this course and many other he was in Udemy, and that have been the best decision I have taken since I started this journey.
+That is why I decided to take this course and many others he was in Udemy, and that has been the best decision I have taken since I started this journey.
 
 ## About the course
 
