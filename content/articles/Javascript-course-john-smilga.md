@@ -10,9 +10,9 @@ tags:
 
 ## Why did it take this course?
 
-As you may know by now, the fundamentals knowledges of web developers are HTML & CSS and Javascript, so after I finished this. [HTML & CSS course](/blog/HTML-CSS-course), I knew the best next thing was to start my javascript adventure.
+As you may know by now, the fundamentals knowledge of web developers are HTML & CSS and Javascript, so after I finished this. [HTML & CSS course](/blog/HTML-CSS-course), I knew the best next thing was to start my javascript adventure.
 
-Choosing the course was the simplest thing, I already knew I wanted to take John Smilga Javascript Course, which you can check [clicking here](https://www.udemy.com/course/javascript-tutorial-for-beginners-w/).
+Choosing the course was the simplest thing, I already knew I wanted to take John Smilga Javascript Course, which you can check by [clicking here](https://www.udemy.com/course/javascript-tutorial-for-beginners-w/).
 
 I knew javascript was not going to be easy to understand at first, but I did not know I was going to like that much so quickly and that I was going to start understanding it sooner than I thought.
 
@@ -20,7 +20,7 @@ Of course, there are many things I don't know about Javascript, and it will take
 
 ## About the course
 
-As usual, John delivers the best content you can look for, the course is perfect from the beginning to the end. The course covers everything thing you need to know about this language, from the most basics things to the lasted ES6 featured and more.
+As usual, John delivers the best content you can look for, the course is perfect from the beginning to the end. The course covers everything thing you need to know about this language, from the most basic things to the lasted ES6 featured and more.
 
 After you finish this course, you will definitely start feeling like a web developer.
 
@@ -41,11 +41,11 @@ Basic knowledge of HTML and CSS.
 
 This course is divided into 18 sections with a total of 357 lessons and a total duration of 40 hours.
 
-Since it is a beginner's course, during the firsts sections we learn the basics and most important thing about Javascript and manipulating the DOM after that, there is an entire section with more than fifteen projects where you get to put into practices everything you had learned.
+Since it is a beginner's course, during the first sections we learn the basics and most important thing about Javascript and manipulating the DOM after that, there is an entire section with more than fifteen projects where you get to put into practices everything you had learned.
 
 After this first part, we start learning about ES6, Modules, AJAX and so more and again we get to use all this knowledge in some different projects.
 
-In the last section of the course, we build an online store call "Comfy Store".
+In the last section of the course, we build an online store called "Comfy Store".
 
 To see all the course projects, [click here](https://www.johnsmilga.com/projects).
 
