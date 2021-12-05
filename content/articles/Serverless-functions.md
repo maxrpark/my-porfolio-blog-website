@@ -16,13 +16,15 @@ After some time researching the best and simple way of creating an API I came ac
 
 I knew John had a course about serverless function using Netlify which I knew at some point I was going to take, but honestly, at that time I did even know what serverless functions were.
 
-The course is simple and easy to learn, so it makes it a top 10 course and a knowledge every developer should know.
+The course is simple and easy to learn, so it makes it a top 10 course and a knowledge every developer should have.
 
 The best thing is that learning about serverless functions gives you a lot more options and tools as a developer than just building your API that is not a small thing either. 
-About the course
+
+## About the course
+
 The course is almost 8 hours long where you have the chance to use serverless functions in so many different ways.
 
-In this course more than in anyone I had taken you to learn by doing, projects are short but go directly to the point and without even knowing you learn more things than you thought you need.
+In this course more than in anyone I had taken you to learn by doing, projects are short but go directly to the point and without even knowing you learn more things than you thought you needed.
 
 And the end of this course, you will feel like a better and more prepared web developer.
 
@@ -38,6 +40,7 @@ And the end of this course, you will feel like a better and more prepared web de
 
 
 ## Course content and Course Projects
+
 This course is divided into 5 sections with a total of 71 lessons and a duration of almost 8 hours.
 
 ### Projects:
