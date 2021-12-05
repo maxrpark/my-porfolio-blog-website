@@ -36,7 +36,7 @@
             >Vegetariano en Corea</nuxt-link
           >, a personal blog where I share my life in South Korea.
         </p>
-        <h3>Becomming a Webdeveloper</h3>
+        <h3>Becoming a Webdeveloper</h3>
         <p>
           This year I decided to learn front-end and back-end web development. I
           did not much about that when I started, but even if it sounds silly I
