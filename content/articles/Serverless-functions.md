@@ -29,7 +29,7 @@ And the end of this course, you will feel like a better and more prepared web de
 ## What you will learn
 
 - Serverless functions with Netlify
-- 
+
 ## Prerequisite
 - HTML
 - CSS
@@ -40,7 +40,7 @@ And the end of this course, you will feel like a better and more prepared web de
 ## Course content and Course Projects
 This course is divided into 5 sections with a total of 71 lessons and a duration of almost 8 hours.
 
-###Projects:
+### Projects:
 
 - Basic “Hello World”
 - Basic API (with local data)
