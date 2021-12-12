@@ -1,7 +1,7 @@
 ---
 title: Sass Tutorial for Beginners CSS With Superpowers
 description: Get started with SASS and code a easy but creat project.
-img: https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.ytimg.com%2Fvi%2F_a5j7KoflTs%2Fmaxresdefault.jpg&imgrefurl=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D_a5j7KoflTs&tbnid=aXpFz-LslqZZ_M&vet=12ahUKEwi4nebssN30AhWLU_UHHYrTBDcQMygDegQIARAX..i&docid=5ADpBJPaUVHOjM&w=1280&h=720&itg=1&q=codeSTACKr%20sass&ved=2ahUKEwi4nebssN30AhWLU_UHHYrTBDcQMygDegQIARAX
+img: https://i.ytimg.com/vi/_a5j7KoflTs/maxresdefault.jpg
 alt: Course img
 tags:
   - courses
