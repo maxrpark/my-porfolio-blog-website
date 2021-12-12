@@ -28,8 +28,8 @@ This tutorial is divided into yo big section, the first one where you will learn
 
 ## Prerequisite
 
-HTML
-CSS
+- HTML
+- CSS
 
 ## My thought about this course
 
