@@ -10,7 +10,7 @@
         <h5>Maxi Ruti</h5>
         <p>
           I am self taught web developer from Argentina. I am currently living
-          in South Korea. Currently working as a Junior Front-End Developer at
+          in South Korea. Currently working as Junior Front-End Developer at
           NOLGONG.
         </p>
       </div>
