@@ -1,7 +1,7 @@
 ---
 title: NPM SimpleSlider
 id: rec30gHV1ne6J0nPj
-img: https://dl.airtable.com/.attachments/b0e0602f504de8c207d08dccc96da357/acd083ce/wordpress-3.jpeg
+img: https://dl.airtable.com/.attachments/3b43b92b3ada68a19a3615734b1431a8/fc7aec6f/simpleSlider.png
 description: Display a simple slidershow/ carousel   in you website with this simple but effective package.
 alt: Home page image
 ---
