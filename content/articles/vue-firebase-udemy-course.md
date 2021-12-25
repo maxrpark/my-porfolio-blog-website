@@ -9,18 +9,15 @@ tags:
 
 ## Why did it take this course?
 
-Because I needed it for my job, two weeks after I started learning React.js I got my first job interview that lead to my first job as Web Developer.
+Basically because I needed to learn vue for my job, two weeks after I started learning React.js I got my first job interview that lead to my first job as Web Developer.
 
 At that time I just knew HTML&CSS and JavaScript, but the company I work for used Vue.js for most of their projects.
 
-I had to tell you, I never thought learning Vue, could be so easy. It is so simple to understand, so organized and the documentation is awesome.
+I never thought learning Vue, could be so easy. It is so simple to understand, so organized and the documentation is awesome.
 
 On top of that, I took this course from Shaun and it has everything you need to know to become and Vue Ninja.
 
-I did know about Shaun before this, but after I took this course I become a huge fan of his courses in Udemy but also on his youtube channel [The Ninja Net](https://www.youtube.com/c/TheNetNinja).
-
-If you want to learn Vue, this course is the way to go. [Take a look here](https://www.udemy.com/course/build-web-apps-with-vuejs-firebase/)
-
+I did know about Shaun before I took this course, but after that I became a huge fan of his courses in Udemy and also of all the content on his youtube channel [The Ninja Net](https://www.youtube.com/c/TheNetNinja).
 
 ## About the course
 
@@ -66,7 +63,9 @@ In the archive section, you can also find more projects.
 
 I could not be happier with this course, from day one I started learning a lot.
 
-I felt confident after I took this course, it is so well organized that it makes it so easy to come here for reference when I forget how to do something.
+Taking this course was definitely a great decision, the course is so well organized that it makes it so easy to re-watch some of the lessons when I forget how to do something.
+
+If you want to learn Vue, this course is the way to go. [Take a look here](https://www.udemy.com/course/build-web-apps-with-vuejs-firebase/)
 
 Besides this course, Shawn has some amazing tutorials about Vue in his youtube challenge for example about [Vuex](https://www.youtube.com/watch?v=BGAu__J4xoc&list=PL4cUxeGkcC9i371QO_Rtkl26MwtiJ30P2), [Vue animations](https://www.youtube.com/watch?v=RIApQjn9fvw&list=PL4cUxeGkcC9ghm7-iTfS9n468Kp7l9Ipu),  [Vue with typescript](https://www.youtube.com/playlist?list=PL4cUxeGkcC9gCtAuEdXTjNVE5bbMFo5OD), and more.
 
@@ -75,7 +74,7 @@ Besides this course, Shawn has some amazing tutorials about Vue in his youtube c
 These are some of the websites I build during and after this course.
 
 - <nuxt-link to="/projects/recTTyGalxlUf8dOU">Lyric App</nuxt-link>
-- <nuxt-link to="/projects/rec7GmsOW5KGLmgLJ">My Porfolio Website</nuxt-link>
+- <nuxt-link to="/projects/recffabAYBHZkEu3w">My Porfolio Website</nuxt-link>
 
 And I have to use Vue for the last 4 months in my current job.
 
