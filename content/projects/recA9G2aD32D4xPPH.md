@@ -74,8 +74,6 @@ SimpelSlider have some basic params so you can start using it right away but als
 | ----------- | --------------------------------- | ------- | ------------ |
 | height      | Control height of sliderContainer | 600px   | Use px or vh |
 | width       | Control width of sliderContainer  | 600px   | Use px or vh |
-| autoSlide   | Run new slide every 3 seconds     | false   |              |
-| arrow       | Display arrows                    | true    |              |
 | color       | Change color of arrows            | black   | RGB hex name |
 | arrowSize   | Size of arrows                    | 1       | From 1 to 5  |
 | arrowWeight | Size of weight                    | 5       | From 1 to 10 |
@@ -87,7 +85,6 @@ SimpelSlider have some basic params so you can start using it right away but als
       class="sliderContainer"
       height="300px"
       width="300px"
-      arrow="true"
       arrowSize="2"
       color="white"
     >
