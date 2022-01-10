@@ -1,7 +1,7 @@
 ---
 title: Make a promise
 id: rec30gHV1ne6J0nPj
-img: https://dl.airtable.com/.attachments/b0e0602f504de8c207d08dccc96da357/acd083ce/wordpress-3.jpeg
+img: https://dl.airtable.com/.attachments/1239d0439a15aea8880fc5b3c2c72440/0383df91/make_a_promise.png
 description: The idea of the project is that you can post a promise or resolution you will try to accomplish and also read other people's promises.
 alt: Home page image
 ---
