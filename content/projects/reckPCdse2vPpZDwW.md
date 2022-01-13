@@ -28,7 +28,7 @@ The application has only one view and two components, Cards and Form.
 
 This project can also be called a [gsap](https://greensock.com/gsap/) project since most of the animation and the idea of the frontend design and functionality rely on gsap timelines and scrollTrigger plugging.
 
-### Buttom
+### Button
 
 I got the nice button effect from this [codepen](https://codepen.io/kocsten/pen/rggjXp).
 
@@ -38,7 +38,7 @@ I got the nice button effect from this [codepen](https://codepen.io/kocsten/pen/
 
 I build the backend of this project using Django and Django Rest Framework. Probably I could achieve the same result without using DRF but another point of this project was to practice what I know about DRF.
 
-###PythonAnywhere
+### PythonAnywhere
 
 I deployed the application in pythonAnywhere you can with it out clicking on the next link.
 [make a Wish](https://maxicode.pythonanywhere.com/).
