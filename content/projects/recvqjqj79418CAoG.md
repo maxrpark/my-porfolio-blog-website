@@ -6,7 +6,7 @@ description: Documentation built with vuepress for my npm packages..
 alt: Home page image
 ---
 
-# Simple Code
+## Simple Code
 
 This is a documentation site for my npm packages, that the moment of creating this website I had published only one but the idea is to create more.
 
