@@ -63,10 +63,11 @@ export default {
       .limit(6)
       .only(["title", "description", "img", "slug", "author"])
       .sortBy("createdAt", "desc")
+      .sort((a, b) => a.createdAt - b.createdAt)
       .fetch();
-
+    
     return {
-      articles.sort((a, b) => a.projectID - b.projectID);,
+      articles;
     };
   },
 };
