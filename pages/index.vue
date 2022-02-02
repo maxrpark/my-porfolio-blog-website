@@ -66,7 +66,7 @@ export default {
       .fetch();
 
     return {
-      articles,
+      articles.sort((a, b) => a.projectID - b.projectID);,
     };
   },
 };
