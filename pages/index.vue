@@ -67,7 +67,7 @@ export default {
       .fetch();
     
     return {
-      articles;
+      articles
     };
   },
 };
