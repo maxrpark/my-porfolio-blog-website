@@ -6,7 +6,7 @@ description: Vegetarian Blog is my first full Django project, I had worked with 
 alt: Home page image
 ---
 
-# Vegetarian Blog
+## Vegetarian Blog
 
 Vegetarian Blog is my first full Django project, I had worked with Django projects before at work but this is the first one I create from scratch.
 
