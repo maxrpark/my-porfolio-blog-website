@@ -102,7 +102,7 @@ export default {
     const fetchProjects = async () => {
       try {
         const { data } = await axios.get("/api/myProjects");
-        this.projects = data.sort((a, b) => b.projectID - a.projectID);;
+        this.projects = data.sort((a, b) => b.projectID - a.projectID);
       } catch (error) {
         console.log(error);
         // result.innerHTML = "<h4>There was an error</h4>";
