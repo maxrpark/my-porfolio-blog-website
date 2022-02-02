@@ -55,4 +55,4 @@ The original posts are coming from [vegetarianoencorea.com](https://vegetarianoe
 
 ## Visit the website
 
-You can take a look at the website by clicking the next link [vegetarian Blog](https://vegetarian-blog.herokuapp.com/post/un-lugar-llamado-salady/).
+You can take a look at the website by clicking the next link [vegetarian Blog](https://vegetarian-blog.herokuapp.com/).
