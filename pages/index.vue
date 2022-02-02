@@ -65,9 +65,8 @@ export default {
       .sortBy("createdAt", "desc")
       .fetch();
     
-    let sortedArticles = articles.sort((a, b) => a.createdAt - b.createdAt)
     return {
-      sortedArticles
+      articles
     };
   },
 };
