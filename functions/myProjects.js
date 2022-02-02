@@ -9,7 +9,7 @@ exports.handler = async (event, context, cb) => {
   try {
     const data = await airtable.list({
       sort: [{ field: "projectID", direction: "asc" }]
-    }).sort((a, b) => a.projectID - b.projectID);
+    })
     const { records } = await airtable.list()
     console.log(data);
 //     const { records } = await airtable.list({
