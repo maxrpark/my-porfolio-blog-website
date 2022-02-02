@@ -2,6 +2,7 @@
 title: HTML & CSS course (John Smilga)
 description: Learn HTML5 and CSS3 from scratch.​ Build Amazing Real World Projects.
 img: https://images.ctfassets.net/qz1k4i0kbshi/4JpOhXeZy37AWiqcn2dswS/c6e3aecdf50049a0ba6cfa01bfcdc669/html-css-logo.png?w=600&q=50
+createdAt : 2020-08-1
 alt: Course img
 tags:
   - courses
