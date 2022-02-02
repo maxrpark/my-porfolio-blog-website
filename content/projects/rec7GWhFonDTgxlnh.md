@@ -6,7 +6,7 @@ description: Wiki Food is an application where you can search for different menu
 alt: Home page image
 ---
 
-# Wiki Food
+## Wiki Food
 
 Wiki Food is my first React.js app, I built it in a couple of days with my basic knowledge of React, even though there are a lot of things to improve I am very happy with the result.
 
