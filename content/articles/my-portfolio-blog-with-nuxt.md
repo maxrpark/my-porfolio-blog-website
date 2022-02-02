@@ -3,6 +3,7 @@ title: My new portfolio - blog website
 description: This is my new portfolio and also my coding blog website, I built it using nuxt and airtable.
 img: https://dl.airtable.com/.attachments/3fd2fabeaec4dbe8261161d44f21621e/3fb2bd00/myfirstwebsite2.0.0.png
 alt: Home page img
+createdAt : 2020-08-6
 tags:
   - web development
 ---

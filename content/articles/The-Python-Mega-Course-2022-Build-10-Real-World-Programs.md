@@ -3,6 +3,7 @@ title: The Python Mega Course 2022, Build 10 Real World Programs
 description: The best course to start your python journey
 img: https://www.theclickreader.com/wp-content/uploads/2021/10/The-Python-Mega-Course-Build-10-Real-World-Applications.jpg
 alt: Course img
+createdAt : 2020-08-7
 tags:
   - courses
 ---

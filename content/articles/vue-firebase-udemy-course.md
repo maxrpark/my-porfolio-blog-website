@@ -3,6 +3,7 @@ title: Build Web Apps with Vue JS 3 & Firebase
 description: Learn Vue JS 3 & Firebase by creating & deploying dynamic web apps (including Authentication).
 img: https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/zFfXpVHETZeTQmySgOZq
 alt: Course img
+createdAt : 2020-08-5
 tags:
   - courses
 ---

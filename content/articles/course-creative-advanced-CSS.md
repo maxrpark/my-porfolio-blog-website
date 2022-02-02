@@ -3,6 +3,7 @@ title: Creative Advanced CSS Animations - Create 100 Projects!
 description: Master Advanced CSS Animations, Transitions and Transforms And Practice with 100 Creative Projects.
 img: https://img-c.udemycdn.com/course/480x270/1908196_f5b8_3.jpg
 alt: Course img
+createdAt : 2020-08-10
 tags:
   - courses
 ---

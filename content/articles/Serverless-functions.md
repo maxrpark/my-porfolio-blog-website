@@ -3,6 +3,7 @@ title: Serverless Functions with Netlify
 description: Learn Serverless Functions with Netlify
 img: https://images.ctfassets.net/qz1k4i0kbshi/gksWBDCQ5wA1sAaqG8vFJ/d6052be9a1afd4a5b1c42f39fc17a7be/serverless.png?w=1200&h=675&q=50
 alt: Course img
+createdAt : 2020-08-4
 tags:
   - courses
 ---

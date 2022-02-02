@@ -3,6 +3,7 @@ title: Javascript Tutorial and Projects Course (John Smilga)
 description: Learn Javascript by Building Many Interesting Projects.
 img: https://images.ctfassets.net/qz1k4i0kbshi/4fNvHTvCzQhgV1KTy8Qxrq/6898aebe3e945b7be6f5527c40614fe9/js-logo.png?w=900&h=506&q=50
 alt: Course img
+createdAt : 2020-08-2
 tags:
   - courses
   - javascript

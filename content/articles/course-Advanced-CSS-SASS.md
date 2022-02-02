@@ -3,6 +3,7 @@ title: Advanced CSS and Sass
 description: The most advanced and modern CSS course on the internet master flexbox, CSS Grid, responsive design, and so much more.
 img: https://img-c.udemycdn.com/course/480x270/1026604_790b_2.jpg
 alt: Course img
+createdAt : 2020-08-9
 tags:
   - courses
 ---

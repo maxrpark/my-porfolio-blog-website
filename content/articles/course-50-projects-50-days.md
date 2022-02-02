@@ -3,6 +3,7 @@ title: 50 Projects In 50 Days - HTML, CSS & JavaScript
 description: Sharpen your skills by building 50 quick, unique & fun mini projects.
 img: https://img-c.udemycdn.com/course/480x270/3671332_b86a.jpg
 alt: Course img
+createdAt : 2020-08-8
 tags:
   - courses
 ---
