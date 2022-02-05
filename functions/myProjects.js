@@ -26,6 +26,7 @@ exports.handler = async (event, context, cb) => {
         gitUrl,
         tags,
         version,
+        images_array,
         img,
         projectID
       } = project.fields;
@@ -40,6 +41,7 @@ exports.handler = async (event, context, cb) => {
         tags,
         version,
         url,
+        images_array,
         id
       };
     });
