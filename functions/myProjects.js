@@ -7,8 +7,12 @@ const airtable = new Airtable({ apiKey: process.env.KEY })
 
 exports.handler = async (event, context, cb) => {
   try {
-    const data = await airtable.list({
-      sort: [{ field: "projectID", direction: "asc" }]
+//     const data = await airtable.list({
+//       sort: [{ field: "projectID", direction: "asc" }]
+//     })
+    
+       const data = await airtable.list({
+//       sort: [{ field: "projectID", direction: "asc" }]
     })
     const { records } = await airtable.list()
     console.log(data);
