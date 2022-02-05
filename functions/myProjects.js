@@ -31,6 +31,12 @@ exports.handler = async (event, context, cb) => {
         projectID
       } = project.fields;
       const url = img[0].url;
+      const background_images = [];
+      
+      images_array.forEach(element => {
+ background_images.push(element.url);
+});
+      
       return {
         projectID,
         name,
@@ -41,7 +47,7 @@ exports.handler = async (event, context, cb) => {
         tags,
         version,
         url,
-        images_array,
+        background_images,
         id
       };
     });
