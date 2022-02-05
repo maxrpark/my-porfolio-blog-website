@@ -11,9 +11,7 @@ exports.handler = async (event, context, cb) => {
 //       sort: [{ field: "projectID", direction: "asc" }]
 //     })
     
-//        const data = await airtable.list({
-// //       sort: [{ field: "projectID", direction: "asc" }]
-//     })
+       const data = await airtable.list()
 
     const { records } = await airtable.list()
     console.log(data);
@@ -39,8 +37,8 @@ exports.handler = async (event, context, cb) => {
       const background_images = [];
       
       images_array.forEach(element => {
-       background_images.push(element.url);
-      });
+ background_images.push(element.url);
+});
       
       return {
         projectID,
