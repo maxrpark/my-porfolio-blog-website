@@ -9,46 +9,7 @@ exports.handler = async (event, context, cb) => {
   const { id } = event.queryStringParameters
   if (id) {
     try {
-      const projectData = await airtable.retrieve(id)
-/////
-
-const project = projectData.map(p => {
-  const { id } = p;
-  const {
-    name,
-    shortDsc,
-    longDsc,
-    pageUrl,
-    gitUrl,
-    tags,
-    version,
-    images_array,
-    img,
-    projectID
-  } = p.fields;
-  const url = img[0].url;
-  const background_images = [];
-  
-  images_array.forEach(element => {
-background_images.push(element.url);
-});
-  
-  return {
-    projectID,
-    name,
-    shortDsc,
-    longDsc,
-    pageUrl,
-    gitUrl,
-    tags,
-    version,
-    url,
-    background_images,
-    id
-  };
-});
-
-      ///
+      const project = await airtable.retrieve(id)
       if (project.error) {
         return {
           statusCode: 500,
