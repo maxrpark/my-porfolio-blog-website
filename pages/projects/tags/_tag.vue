@@ -119,7 +119,8 @@ export default {
 } */
 .project-title{
   display: flex;
-justify-content: space-around
+justify-content: space-around;
+flex-direction: column;
 }
 .project-tag-page {
   min-height: 100vh;
