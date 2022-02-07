@@ -7,7 +7,7 @@
           <NuxtLink to="/projects"
             ><p class="btn">Back to All Projects</p></NuxtLink
           >
-          <h3 class="">Articles tagged {{ tagName }}</h3>
+          <h3 class="">Projects tagged {{ tagName }}</h3>
         </div>
         <div class="cards">
           <div
@@ -20,7 +20,7 @@
               <div class="project-title">
                 <h5>{{ project.version }}</h5>
                 <h2>{{ project.name }}</h2>
-              </div>
+              
                 <div class="project-tags">
                   <div v-for="tag in project.tags.slice(0, 3)"
                   :key="tag[0]">
@@ -40,7 +40,10 @@
                   >read more</Nuxt-link
                 >
               </div>
+
+       
             </div>
+            here
           </div>
         </div>
       </div>
