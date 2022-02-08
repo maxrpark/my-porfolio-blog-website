@@ -13,7 +13,7 @@ exports.handler = async (event, context, cb) => {
     
        const data = await airtable.list()
 
-    const { records } = await airtable.list()
+    const { records } = await airtable.list({maxRecords:whateverValue})
     console.log(data);
 //     const { records } = await airtable.list({
 //       sort: [{ field: "projectID", direction: "desc" }]
