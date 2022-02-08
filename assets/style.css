@@ -233,6 +233,7 @@ p {
   align-items: center;
   flex-wrap: wrap;
   gap: 1.25rem;
+  max-width: 500px;
 }
 
 .btn {
