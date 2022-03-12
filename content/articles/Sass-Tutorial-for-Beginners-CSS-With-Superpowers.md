@@ -16,9 +16,7 @@ I like to see how other developers do and teach about the same topics because, a
 
 I found this course on the [freeCodeCamp.org](https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ) youtube channel and It is given by[Jesse Hall](https://www.codestackr.com/) who is a  Senior Developer Advocate and has a great youtube channel called codeSTACKr.
 
-This course is just 2 hours long but it was everything you need to know to get started using SASS, even if 2 hours seems too short, SASS is in my opinion very easy to learn.
-
-Especially if you have some understanding of CSS you can pick all the important things in a few hours and start improving from there white you use something cool.
+This course is just 2 hours long but it has everything you need to know to get started using SASS, even if 2 hours seems too short, SASS is in my opinion very easy to learn, especially if you have some good understanding of CSS you can pick up all the important things in a few hours and start improving from there while you build something cool.
 
 ## About the course
 
