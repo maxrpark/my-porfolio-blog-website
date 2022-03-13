@@ -16,7 +16,7 @@ All you need to do is to create a section or div tag with the class slidesContai
 
 ## Installation
 
-```
+```bash
 npm i @maxcoding/simpleslider
 ```
 
@@ -24,13 +24,13 @@ npm i @maxcoding/simpleslider
 
 ### Register the packeget
 
-```
+```js
 import simpleSlider from '@maxcoding/simpleslider'
 ```
 
 or
 
-```
+```js
 import simpleslider from './node_modules/@maxcoding/simpleslider/index.js';
 ```
 
@@ -38,13 +38,13 @@ import simpleslider from './node_modules/@maxcoding/simpleslider/index.js';
 
 After registering the package inside your javascript file you just need to past this:
 
-```
+```js
 simpleslider()
 ```
 
 #### Vue
 
-```
+```js
   mounted() {
     simpleSlider();
   },
@@ -52,7 +52,7 @@ simpleslider()
 
 ## Template
 
-```
+```html
     <section class="sliderContainer">
       <div class="slide">
         <img src="cat1.jpg" alt="" />
@@ -80,7 +80,7 @@ SimpelSlider have some basic params so you can start using it right away but als
 
 ### Example
 
-```
+```html
      <section
       class="sliderContainer"
       height="300px"
