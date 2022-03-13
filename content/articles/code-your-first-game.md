@@ -1,12 +1,13 @@
 ---
-title: Code Your First Game: Arcade Classic in JavaScript on Canvas
-description: Code Your First Game: Arcade Classic in JavaScript on Canvas.
+title: Code your  first game
+description: Learn how to make game with javascript.
 img: https://www.howtofree.org/wp-content/uploads/2020/08/Arcade-Classic-in-JavaScript-on-Canvas.jpg
 alt: Course img
-createdAt : 2022-10-3
+createdAt : 2022-03-10
 tags:
   - courses
 ---
+
 
 
 ## Why did it take this course?
