@@ -6,7 +6,7 @@ description: Take a break from your day to day tasks and enjoy a meme.
 alt: Home page image
 ---
 
-# Meme
+## Meme
 
 Welcome to meme - gif extension!
 
