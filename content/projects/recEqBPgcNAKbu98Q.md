@@ -20,4 +20,4 @@ Also, users can create CVs for a pet, which can be useful for people that rescue
 
 ## Visit the website
 
-You can take a look at the website by clicking the next link [vegetarian Blog](https://pet-board.herokuapp.com/).
+You can take a look at the website by clicking the next link [Pet Board](https://pet-board.herokuapp.com/).
