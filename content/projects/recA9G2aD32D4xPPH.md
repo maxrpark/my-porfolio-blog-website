@@ -6,7 +6,7 @@ description: Display a simple slidershow/ carousel   in you website with this si
 alt: Home page image
 ---
 
-# Simpleslider
+## Simpleslider
 
 Take a look at the example on [codepen](https://codepen.io/maxrpark/pen/ExwXRPb).
 
