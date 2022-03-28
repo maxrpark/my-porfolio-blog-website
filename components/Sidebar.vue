@@ -16,7 +16,7 @@
           </div>
         </div>
         <h5 class="">Projects Categories</h5>
-        <div class="tagsList" v-for="newTag in tagsList.sort()" :key="newTag">
+        <div class="tagsList" v-for="newTag in tagsList" :key="newTag">
           <div class="">
             <Nuxt-link class="" :to="`/projects/tags/${newTag.toLowerCase()}`"
               ><p>{{ newTag }}</p></Nuxt-link
@@ -50,7 +50,7 @@ export default {
         this.projects = data.slice(0, 5);
         data.forEach(project => {
           project.tags.forEach(tag => {
-            this.tagsList.add(tag.toUpperCase());
+            this.tagsList.add(tag.toUpperCase()).sort();
           });
         });
       } catch (error) {
