@@ -50,7 +50,7 @@ export default {
         this.projects = data.slice(0, 5);
         data.forEach(project => {
           project.tags.forEach(tag => {
-            this.tagsList.add(tag.toUpperCase());
+            this.tagsList.add(tag.toUpperCase().sort());
           });
         });
       } catch (error) {
