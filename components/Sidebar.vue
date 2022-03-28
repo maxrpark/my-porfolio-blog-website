@@ -40,7 +40,8 @@ export default {
   data() {
     return {
       projects: [],
-      tagsList: new Set()
+      tagsList: new Set(),
+     
     };
   },
   mounted() {
@@ -51,10 +52,9 @@ export default {
         data.forEach(project => {
           project.tags.forEach(tag => {
             this.tagsList.add(tag.toUpperCase());
-            let listFinal = [...this.tagsList].sort()
-            console.log(listFinal)
             
           });
+          this.tagsList = [...this.tagsList].sort()
         });
       } catch (error) {
         console.log(error);
