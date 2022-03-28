@@ -18,7 +18,7 @@
               <div class="project-tags">
                 <div
                   class="tag"
-                  v-for="tag in project.tags.slice(0, 3)"
+                  v-for="tag in project.tags.slice(0, 2)"
                   :key="tag[0]"
                 >
                   <Nuxt-link class="" :to="`/projects/tags/${tag}`">{{
@@ -58,7 +58,7 @@
                <div class="project-tags">
                 <div
                   class="tag"
-                  v-for="tag in project.tags.slice(0, 3)"
+                  v-for="tag in project.tags.slice(0, 2)"
                   :key="tag[0]"
                 >
                   <Nuxt-link class="" :to="`/projects/tags/${tag}`">{{
