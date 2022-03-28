@@ -16,7 +16,7 @@
           </div>
         </div>
         <h5 class="">Projects Categories</h5>
-        <div class="tagsList" v-for="newTag in tagsList" :key="newTag">
+        <div class="tagsList" v-for="newTag in tagsSorted" :key="newTag">
           <div class="">
             <Nuxt-link class="" :to="`/projects/tags/${newTag.toLowerCase()}`"
               ><p>{{ newTag }}</p></Nuxt-link
@@ -41,7 +41,7 @@ export default {
     return {
       projects: [],
       tagsList: new Set(),
-     
+      tagsSorted: []
     };
   },
   mounted() {
@@ -54,7 +54,7 @@ export default {
             this.tagsList.add(tag.toUpperCase());
             
           });
-          this.tagsList = [...this.tagsList].sort()
+          this.tagsSorted = [...this.tagsList].sort()
         });
       } catch (error) {
         console.log(error);
