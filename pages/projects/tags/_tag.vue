@@ -7,7 +7,7 @@
           <NuxtLink to="/projects"
             ><p class="btn">Back to All Projects</p></NuxtLink
           >
-          <h3 class="">Articles tagged {{ tagName }}</h3>
+          <h3 class="">Projects tagged {{ tagName }}</h3>
         </div>
         <div class="cards">
           <div
@@ -22,7 +22,7 @@
                 <h2>{{ project.name }}</h2>
          
                 <div class="project-tags">
-                  <div v-for="tag in project.tags.slice(0, 3)"
+                  <div v-for="tag in project.tags.slice(0, 2)"
                   :key="tag[0]">
                     <div class="tag">
                       <Nuxt-link class="" :to="`/projects/tags/${tag}`">{{
