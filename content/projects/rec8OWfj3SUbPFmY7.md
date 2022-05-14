@@ -22,7 +22,7 @@ As I mentioned the frontend is built with React and typescript, for the styles I
            
 Besides that, I also create a few custumeHooks which were also helpful around the app.
 
-## pPages
+## Pages
  Noodle it! has around 14 different pages which are:
 - Home
 - Dashboard
@@ -79,5 +79,5 @@ You can visit the API[HERE](https://noodles-api.herokuapp.com/) to know more abo
 
 These are only few things included in the project that just come to my mind now if you want to know more about it, please take a look the the two repositories
 
-[Noodle it](https://github.com/maxrpark/noodle_it_ts)
-[Noodles-api](https://github.com/maxrpark/nooodles_api)
+- [Noodle it](https://github.com/maxrpark/noodle_it_ts)
+- [Noodles-api](https://github.com/maxrpark/nooodles_api)
