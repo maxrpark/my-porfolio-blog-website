@@ -54,6 +54,12 @@ exports.handler = async (event, context, cb) => {
         id
       };
     });
+    if(!records){
+      return {
+        statusCode: 404,
+        body: "Not found"
+      };
+    }
     return {
       headers:{
         'Access-Control-Allow-Origin': '*',
