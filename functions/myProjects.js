@@ -31,7 +31,8 @@ exports.handler = async (event, context, cb) => {
         version,
         images_array,
         img,
-        projectID
+        projectID,
+        featured
       } = project.fields;
       const url = img[0].url;
       const background_images = [];
@@ -51,7 +52,8 @@ exports.handler = async (event, context, cb) => {
         version,
         url,
         background_images,
-        id
+        id,
+        featured
       };
     });
     if(!records){
