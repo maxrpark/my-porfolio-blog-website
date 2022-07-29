@@ -6,7 +6,7 @@
         <div class="project-container">
           <div
             class="single-project"
-            v-for="project in projects.slice(0, 3)"
+            v-for="project in projects.slice(0, 6)"
             :key="project.id"
           >
             <img class="img project-img-card" :src="project.url" alt="" />
