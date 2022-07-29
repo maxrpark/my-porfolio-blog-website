@@ -103,10 +103,13 @@ export default {
     const fetchProjects = async () => {
       try {
         const { data } = await axios.get("/api/myProjects");
-        this.projects = data.sort((a, b) => b.projectID - a.projectID).filter((p) => {
-            p.featured == "true";
-        });
+        this.projects = data.sort((a, b) => b.projectID - a.projectID);
 
+
+        let featuredProjects = this.projects.filter((p) => 
+            p.featured == "true";
+        );
+        console.log(featuredProjects);
       } catch (error) {
         console.log(error);
         // result.innerHTML = "<h4>There was an error</h4>";
