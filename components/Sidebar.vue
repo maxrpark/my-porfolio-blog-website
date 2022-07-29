@@ -18,7 +18,7 @@
         <h5 class="">Projects Categories</h5>
         <div class="tagsList" v-for="newTag in tagsSorted" :key="newTag">
           <div class="">
-            <Nuxt-link class="" :to="`/projects/tags/${newTag.toLowerCase()}`"
+            <Nuxt-link class="" :to="`/projects/tags/${newTag}`"
               ><p>{{ newTag }}</p></Nuxt-link
             >
           </div>
