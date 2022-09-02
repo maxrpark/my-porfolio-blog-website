@@ -10,7 +10,7 @@ alt: Home page image
 
 ### Preview
 
-<div ="center">
+<div align="center">
 
 ![Alt Text](images/gsap-greensock-snippets.gif)
 
