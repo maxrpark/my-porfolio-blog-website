@@ -12,7 +12,9 @@ alt: Home page image
 
 <div align="center">
 
-![Alt Text](images/gsap-greensock-snippets.gif)
+![Alt Text](https://raw.githubusercontent.com/maxrpark/gsap-snippets-vsc-extension/main/images/gsap-greensock-snippets.gif)
+  
+  
 
 </div>
 
