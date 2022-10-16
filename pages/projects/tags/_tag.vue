@@ -20,10 +20,9 @@
               <div class="project-title">
                 <h5>{{ project.version }}</h5>
                 <h2>{{ project.name }}</h2>
-         
+
                 <div class="project-tags">
-                  <div v-for="tag in project.tags.slice(0, 2)"
-                  :key="tag[0]">
+                  <div v-for="tag in project.tags.slice(0, 2)" :key="tag[0]">
                     <div class="tag">
                       <Nuxt-link class="" :to="`/projects/tags/${tag}`">{{
                         tag
@@ -53,7 +52,7 @@
 </template>
 
 <script>
-import axios from "axios";
+import api from "../../../utils/axios";
 export default {
   head() {
     return {
@@ -80,7 +79,7 @@ export default {
     const tagName = this.$route.params.tag;
     const fetchProjects = async () => {
       try {
-        const { data } = await axios.get("/api/myProjects");
+        const { data } = await api.get("/api/myProjects");
         console.log(data);
         data.forEach(projects => {
           let exist = false;
@@ -117,10 +116,10 @@ export default {
   margin: 2rem auto;
   max-width: 1200px;
 } */
-.project-title{
-display: flex;
-justify-content: space-around;
-flex-direction: column;
+.project-title {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
 }
 .project-tag-page {
   min-height: 100vh;

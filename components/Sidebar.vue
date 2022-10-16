@@ -34,7 +34,7 @@
 </template>
 
 <script>
-import axios from "axios";
+import api from "../utils/axios";
 export default {
   props: ["tags"],
   data() {
@@ -47,14 +47,13 @@ export default {
   mounted() {
     const fetchProjects = async () => {
       try {
-        const { data } = await axios.get("/api/myProjects");
+        const { data } = await api.get("/api/myProjects");
         this.projects = data.slice(0, 5);
         data.forEach(project => {
           project.tags.forEach(tag => {
             this.tagsList.add(tag.toUpperCase());
-            
           });
-          this.tagsSorted = [...this.tagsList].sort()
+          this.tagsSorted = [...this.tagsList].sort();
         });
       } catch (error) {
         console.log(error);

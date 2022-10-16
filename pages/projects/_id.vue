@@ -42,7 +42,7 @@
               v-for="link of projectDesc.toc"
               :key="link.id"
               :class="{
-                'font-semibold': link.depth === 2,
+                'font-semibold': link.depth === 2
               }"
             >
               <nuxtLink
@@ -50,7 +50,7 @@
                 class="hover:underline content-links"
                 :class="{
                   'py-2': link.depth === 2,
-                  'ml-2 pb-2': link.depth === 3,
+                  'ml-2 pb-2': link.depth === 3
                 }"
                 >{{ link.text }}</nuxtLink
               >
@@ -71,7 +71,7 @@
 </template>
 
 <script>
-import axios from "axios";
+import api from "../../utils/axios";
 export default {
   head() {
     return {
@@ -80,9 +80,9 @@ export default {
         {
           hid: "description",
           name: "description",
-          content: this.projectDesc.description,
-        },
-      ],
+          content: this.projectDesc.description
+        }
+      ]
     };
   },
   data() {
@@ -90,7 +90,7 @@ export default {
       project: [],
       text: null,
       img: "",
-      loading: true,
+      loading: true
     };
   },
   async asyncData({ $content, params }) {
@@ -104,7 +104,7 @@ export default {
 
     return {
       tags,
-      projectDesc,
+      projectDesc
     };
   },
   mounted() {
@@ -112,8 +112,8 @@ export default {
       try {
         const id = this.$route.params.id;
         const {
-          data: { fields },
-        } = await axios.get(`/api/project?id=${id}`);
+          data: { fields }
+        } = await api.get(`/api/project?id=${id}`);
         this.project = fields;
         const { img } = fields;
         const url = img[0].url;
@@ -124,7 +124,7 @@ export default {
       }
     };
     getProject();
-  },
+  }
 };
 </script>
 
