@@ -1,6 +1,5 @@
 <template>
   <div>
-    {{ posts.length }}
     <Hero title="Maxi Ruti" desc="Welcome to my Portfolio-Blog">
       <SocialIcons />
     </Hero>
@@ -14,7 +13,15 @@
         </Nuxt-link>
       </div>
 
-      <Projects />
+      <!-- <Projects :projects="projects" /> -->
+
+      <div class="project-container">
+        <SingleProject
+          v-for="project in projects.slice(0, 6)"
+          :project="project"
+          :key="project.id"
+        />
+      </div>
     </div>
 
     <div class="blog-section">
@@ -59,32 +66,16 @@
   </div>
 </template>
 
-<script setup>
-import { useStore } from "../store/store";
-
-import { ref } from "@nuxtjs/composition-api";
-import { defineComponent, useAsync, useContext } from "@nuxtjs/composition-api";
-
-const store = useStore();
-
-const { $http } = useContext();
-const posts = useAsync(() =>
-  $http.$get("https://my-portfolio-blog-website.netlify.app/api/myProjects")
-);
-
-console.log(posts);
-
-// store.setProjects(posts);
-</script>
-
 <script>
-import Projects from "../components/Projects.vue";
+// import Projects from "../components/Projects.vue";
+import api from "../utils/axios";
 export default {
-  async asyncData({ params, $http }) {
-    const { data } = await api.get("/api/myProjects");
-    console.log("data", data);
-    return { data };
-  },
+  // async asyncData({ params, $http }) {
+  //   console.log("hello");
+  //   const { data } = await api.get("/api/myProjects");
+  //   console.log(data);
+  //   return { data };
+  // },
 
   head() {
     return {
@@ -92,7 +83,7 @@ export default {
     };
   },
   name: "HomePage",
-  components: { Projects },
+
   async asyncData({ $content, params }) {
     const articles = await $content("articles")
       .limit(6)
@@ -100,8 +91,11 @@ export default {
       .sortBy("createdAt", "desc")
       .fetch();
 
+    const { data } = await api.get("/api/myProjects");
+
     return {
       articles,
+      projects: data.filter((project) => project.featured == "true"),
     };
   },
 };

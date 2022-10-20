@@ -116,9 +116,6 @@ export default {
     "@nuxtjs/tailwindcss",
     "@nuxtjs/google-fonts",
     "@nuxtjs/pwa",
-
-    "@nuxtjs/composition-api/module",
-    "@pinia/nuxt",
   ],
   purgeCSS: {
     whitelistPatterns: [/svg.*/, /fa.*/, /fas.*/],
