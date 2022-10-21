@@ -36,7 +36,6 @@
                 >
               </div>
             </div>
-           
           </div>
         </div>
 
@@ -55,7 +54,7 @@
                 <h6>{{ project.version }}</h6>
                 <h2>{{ project.name }}</h2>
               </div>
-               <div class="project-tags">
+              <div class="project-tags">
                 <div
                   class="tag"
                   v-for="tag in project.tags.slice(0, 2)"
@@ -91,13 +90,13 @@ import axios from "axios";
 export default {
   data() {
     return {
-      projects: []
+      projects: [],
     };
   },
   computed: {
     projectsPage() {
       return this.$route.path === "/";
-    }
+    },
   },
   mounted() {
     const fetchProjects = async () => {
@@ -106,8 +105,8 @@ export default {
         // this.projects = data.sort((a, b) => b.projectID - a.projectID);
 
         this.projects = data
-            .sort((a, b) => b.projectID - a.projectID)
-            .filter((p) => p.featured == "true");
+          .sort((a, b) => b.projectID - a.projectID)
+          .filter((p) => p.featured == true);
       } catch (error) {
         console.log(error);
         // result.innerHTML = "<h4>There was an error</h4>";
@@ -115,7 +114,7 @@ export default {
     };
 
     fetchProjects();
-  }
+  },
 };
 </script>
 
@@ -156,7 +155,7 @@ export default {
 }
 
 .project-title h2 {
- font-size: 1.9rem;
+  font-size: 1.9rem;
 }
 
 .project-links {
@@ -219,7 +218,7 @@ export default {
     height: 100%;
   }
   .project-title h2 {
-  font-size: 2.441rem;
+    font-size: 2.441rem;
   }
   .project-links {
     align-self: end;
