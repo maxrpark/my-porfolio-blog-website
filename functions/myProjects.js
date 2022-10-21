@@ -7,19 +7,20 @@ const airtable = new Airtable({ apiKey: process.env.KEY })
 
 exports.handler = async (event, context, cb) => {
   try {
-//     const data = await airtable.list({
-//       sort: [{ field: "projectID", direction: "asc" }]
-//     })
-    
-       const data = await airtable.list()
+    //     const data = await airtable.list({
+    //       sort: [{ field: "projectID", direction: "asc" }]
+    //     })
+
+    const data = await airtable.list();
 
     // const { records } = await airtable.list({maxRecords:100})
     // console.log(data);
     const { records } = await airtable.list({
-      sort: [{ field: "projectID", direction: "desc" }],maxRecords: 100
+      sort: [{ field: "projectID", direction: "desc" }],
+      maxRecords: 100,
     });
 
-    const projects = records.map(project => {
+    const projects = records.map((project) => {
       const { id } = project;
       const {
         name,
@@ -29,18 +30,12 @@ exports.handler = async (event, context, cb) => {
         gitUrl,
         tags,
         version,
-        images_array,
         img,
         projectID,
-        featured
+        featured,
       } = project.fields;
       const url = img[0].url;
-      const background_images = [];
-      
-      images_array.forEach(element => {
- background_images.push(element.url);
-});
-      
+
       return {
         projectID,
         name,
@@ -51,28 +46,27 @@ exports.handler = async (event, context, cb) => {
         tags,
         version,
         url,
-        background_images,
         id,
-        featured
+        featured,
       };
     });
-    if(!records){
+    if (!records) {
       return {
         statusCode: 404,
-        body: "Not found"
+        body: "Not found",
       };
     }
     return {
-      headers:{
-        'Access-Control-Allow-Origin': '*',
+      headers: {
+        "Access-Control-Allow-Origin": "*",
       },
       statusCode: 200,
-      body: JSON.stringify(projects)
+      body: JSON.stringify(projects),
     };
   } catch (error) {
     return {
       statusCode: 500,
-      body: "Server Error"
+      body: "Server Error",
     };
   }
 };
