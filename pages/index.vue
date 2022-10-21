@@ -3,122 +3,47 @@
     <Hero title="Maxi Ruti" desc="Welcome to my Portfolio-Blog">
       <SocialIcons />
     </Hero>
-
-    <div class="projects">
-      <div class="section-title">
-        <h2>My latest projects</h2>
-
-        <Nuxt-link to="/projects">
-          <span class="home-page-links">See all projects</span>
-        </Nuxt-link>
-      </div>
-
-      <!-- <Projects :projects="projects" /> -->
-
-      <div class="project-container">
-        <SingleProject
-          v-for="project in projects.slice(0, 6)"
-          :project="project"
-          :key="project.id"
-        />
-      </div>
-    </div>
-
-    <div class="blog-section">
-      <div class="section-title">
-        <h2>My blog</h2>
-
-        <Nuxt-link to="/blog">
-          <span class="home-page-links">See all post</span>
-        </Nuxt-link>
-      </div>
-
-      <div class="post-cards">
-        <ul>
-          <div class="cards">
-            <li v-for="article of articles" :key="article.slug">
-              <!-- single card -->
-
-              <div class="card">
-                <NuxtLink
-                  :to="{ name: 'blog-slug', params: { slug: article.slug } }"
-                >
-                  <div class="card-img">
-                    <img :src="article.img" />
-                  </div>
-
-                  <div>
-                    <h2>{{ article.title }}</h2>
-
-                    <div class="desc">
-                      <p>{{ article.description }}</p>
-                    </div>
-                  </div>
-                </NuxtLink>
-              </div>
-
-              <!-- end of single card -->
-            </li>
-          </div>
+    <main>
+      <div class="projects">
+        <SectionTitle section="projects" url="/projects" />
+        <ul class="project-container">
+          <SingleProject
+            v-for="project in projects.slice(0, 6)"
+            :project="project"
+            :key="project.id"
+          />
         </ul>
       </div>
-    </div>
+
+      <div class="blog-section">
+        <SectionTitle section="post" url="/blog" />
+        <ul class="cards">
+          <PostCard
+            v-for="post of posts.slice(0, 4)"
+            :key="post.id"
+            :post="post"
+          />
+        </ul>
+      </div>
+    </main>
   </div>
 </template>
 
-<script>
-// import Projects from "../components/Projects.vue";
-import api from "../utils/axios";
-export default {
-  // async asyncData({ params, $http }) {
-  //   console.log("hello");
-  //   const { data } = await api.get("/api/myProjects");
-  //   console.log(data);
-  //   return { data };
-  // },
+<script setup>
+import { useAsync, useContext } from "@nuxtjs/composition-api";
+const { $http } = useContext();
+const projects = useAsync(() =>
+  $http.$get(`http://localhost:8888/api/myProjects`)
+);
 
-  head() {
-    return {
-      title: "Home || Maxi Ruti",
-    };
-  },
-  name: "HomePage",
-
-  async asyncData({ $content, params }) {
-    const articles = await $content("articles")
-      .limit(6)
-      .only(["title", "description", "img", "slug", "author"])
-      .sortBy("createdAt", "desc")
-      .fetch();
-
-    const { data } = await api.get("/api/myProjects");
-
-    return {
-      articles,
-      projects: data.filter((project) => project.featured == "true"),
-    };
-  },
-};
+const posts = useAsync(() =>
+  $http.$get(`https://dev.to/api/articles?username=maxrpark`)
+);
 </script>
 
 <style scoped>
-.projects,
-.post-cards {
+.main {
   max-width: 1200px;
   margin: 0 auto;
-}
-.section-title {
-  padding: 1rem;
-}
-.home-page-links {
-  font-size: 1.25rem;
-  border-bottom: 2px solid var(--primary-color-one);
-  padding-bottom: 0.2rem;
-  transition: all 0.1s linear;
-}
-.home-page-links:hover {
-  border-bottom: 2px solid var(--primary-color-fourth);
-  color: var(--primary-color-fourth);
-  transform: translateY(-3px);
 }
 </style>

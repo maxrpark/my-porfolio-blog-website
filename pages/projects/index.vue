@@ -2,28 +2,23 @@
   <div class="projects-page">
     <div>
       <Hero title="Maxi Ruti" desc="My Projects" />
-      <Projects />
+      <ul class="project-container">
+        <SingleProject
+          v-for="project in projects"
+          :project="project"
+          :key="project.id"
+        />
+      </ul>
     </div>
   </div>
 </template>
 
-<script>
-export default {
-  head() {
-    return {
-      title: "My Projects || Maxi Ruti"
-    };
-  },
-  async asyncData({ $content, params }) {
-    const tags = await $content("tags")
-      .only(["name", "slug"])
-      .sortBy("createdAt", "asc")
-      .fetch();
-    return {
-      tags
-    };
-  }
-};
+<script setup>
+import { useAsync, useContext } from "@nuxtjs/composition-api";
+const { $http } = useContext();
+const projects = useAsync(() =>
+  $http.$get(`http://localhost:8888/api/myProjects`)
+);
 </script>
 
 <style>

@@ -9,7 +9,14 @@
 <script>
 export default {
   name: "HomePage",
-  props: ["title", "desc"]
+  props: {
+    title: {
+      type: String,
+    },
+    desc: {
+      type: String,
+    },
+  },
 };
 </script>
 <style scoped>

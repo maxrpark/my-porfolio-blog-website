@@ -1,5 +1,5 @@
 <template>
-  <div class="single-project">
+  <li class="single-project">
     <img class="img project-img-card" :src="project.url" alt="" />
     <div class="project-details">
       <div class="project-title">
@@ -21,7 +21,7 @@
         >
       </div>
     </div>
-  </div>
+  </li>
 </template>
 
 <script>
