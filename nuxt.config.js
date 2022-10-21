@@ -116,6 +116,7 @@ export default {
     "@nuxtjs/tailwindcss",
     "@nuxtjs/google-fonts",
     "@nuxtjs/pwa",
+    "@nuxtjs/composition-api/module",
   ],
   purgeCSS: {
     whitelistPatterns: [/svg.*/, /fa.*/, /fas.*/],
@@ -129,7 +130,11 @@ export default {
     "@nuxt/content",
 
     "@nuxt/http",
+    "@nuxtjs/markdownit",
   ],
+  markdownit: {
+    runtime: true, // Support `$md()`
+  },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {},

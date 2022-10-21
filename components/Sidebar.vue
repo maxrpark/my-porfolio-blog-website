@@ -1,10 +1,5 @@
 <template>
   <div class="sidebar">
-    <AppSearchInput />
-    <div class="tags">
-      <h5 class="">Blog Categories</h5>
-      <SidebarTags :tags="tags" />
-    </div>
     <div class="projects-links">
       <div v-if="projects.length > 1">
         <div class="lastest-projects">
@@ -41,7 +36,7 @@ export default {
     return {
       projects: [],
       tagsList: new Set(),
-      tagsSorted: []
+      tagsSorted: [],
     };
   },
   mounted() {
@@ -49,8 +44,8 @@ export default {
       try {
         const { data } = await api.get("/api/myProjects");
         this.projects = data.slice(0, 5);
-        data.forEach(project => {
-          project.tags.forEach(tag => {
+        data.forEach((project) => {
+          project.tags.forEach((tag) => {
             this.tagsList.add(tag.toUpperCase());
           });
           this.tagsSorted = [...this.tagsList].sort();
@@ -61,7 +56,7 @@ export default {
     };
 
     fetchProjects();
-  }
+  },
 };
 </script>
 
